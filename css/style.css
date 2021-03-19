@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  height: 81vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.lado-esquerdo {
+  margin: 0;
+  padding: 0;
+}
+
+.lado-esquerdo img {
+  margin: 0;
+  padding: 0;
+  width: 60rem;
+}
+
+.lado-direito {
+  background-color: #fff;
+  margin-right: 400px;
+  width: auto;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid gainsboro;
+  padding: 70px;
+}
+
+#logo-instagram {
+  width: 15rem;
+  height: 5rem;
+  padding-top: 15px;
+}
+
+#foto-perfil {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  align-self: center;
+  margin-top: 15px;
+}
+
+.div-botao {
+  padding-top: 12px;
+  width: auto;
+  height: auto;
+}
+
+.botao {
+  border-radius: 5px;
+  border-style: none;
+  width: 250px;
+  height: 30px;
+  font-size: 14px;
+  background-color: dodgerblue;
+  color: white;
+}
+
+.trocar-de-conta {
+  color: dodgerblue;
+}
+
+p {
+  padding-top: 30px;
+}
